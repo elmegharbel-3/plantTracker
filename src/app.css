@@ -1,0 +1,21 @@
+:root {
+    --main-green: #3F7D58;
+    --main-back: #d8e7d5;
+    --secondary: #EF9651;
+}
+@font-face {
+    font-family: 'kablammo';
+    src: url('fonts/Kablammo/Kablammo-Regular-VariableFont_MORF.ttf') format('truetype'), /* Modern browsers */;
+    font-weight: normal; 
+    font-style: normal; 
+}
+@font-face {
+    font-family: 'tektur';
+    src: url('fonts/Tektur/Tektur-VariableFont_wdth,wght.ttf') format('truetype'), /* Modern browsers */;
+    font-weight: normal; 
+    font-style: normal; 
+}
+html,body {
+    margin: 0;
+    background-color: var(--main-back);
+}
